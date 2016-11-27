@@ -7,7 +7,20 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Label x:Name="label1" Content="Label" HorizontalAlignment="Left" Margin="27,69,0,0" VerticalAlignment="Top" Height="23"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="322*"/>
+            <ColumnDefinition Width="195*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="label1" Content="фыворллф" HorizontalAlignment="Left" Margin="180,172,0,0" VerticalAlignment="Top" Height="23" RenderTransformOrigin="0.5,0.5" Width="85" AutomationProperties.Name="лфоыврфлыов">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-130.764"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
         <TextBox x:Name="tbox1" HorizontalAlignment="Left" Height="23" Margin="70,69,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="195,69,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="button_Click"/>
 
