@@ -27,7 +27,7 @@ namespace WpfApplication1
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            tbox1.Text = "Hello World!";
+            label1.Content = "Hello " + tbox1.Text;
         }
     }
 }
